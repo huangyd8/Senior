@@ -1,0 +1,5 @@
+1、将需要上传的代码放到D盘test文件夹中，假设命名为a.txt；
+2、将Git bash定位到test后，输入git add a.txt；
+3、输入git commit -m "tips";
+4、输入git push origin master;
+完成后即可在github主仓库中找到该文件。
