@@ -3,3 +3,12 @@
 3、输入git commit -m "tips";
 4、输入git push origin master;
 完成后即可在github主仓库中找到该文件。
+
+在新的目录下将代码上传到已有的远程库：
+git init
+git add remote origin 你的项目地址
+git pull origin master
+:wq
+git add 你要添加的文件
+git commit -m "sd"
+git push origin master
